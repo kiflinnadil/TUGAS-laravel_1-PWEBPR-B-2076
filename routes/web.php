@@ -1,10 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Faker\Factory as Faker;
 
 Route::get('/', function () {
-    return redirect()->route('register'); // Mengarahkan ke halaman register
-});
+    return view('register');
+})->name('register');
 
 Route::get('/login', function () {
     return view('login');
@@ -15,7 +16,18 @@ Route::get('/register', function () {
 })->name('register');
 
 Route::get('/contact', function () {
-    return view('contact');
+    $contacts = [];
+    $faker = Faker::create();
+    for ($i = 1; $i <= 10; $i++){
+        $contacts[]= [
+            'name' => $faker->name,
+            'email' => $faker->unique()->safeEmail,
+            'phone' => $faker->phoneNumber,
+            'address' => $faker->address,
+            'occupation' => $faker->jobTitle
+        ];
+    };
+    return view('contact', ['contact' => $contacts]);
 })->name('contact');
 
 // Route::get('/', function () {
@@ -28,8 +40,4 @@ Route::get('/contact', function () {
 
 // Route::get('/contact', function () {
 //     return view('contact');
-// });
-
-// Route::get('/login', function () {
-//     return view('login');
 // });

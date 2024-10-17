@@ -3,10 +3,10 @@
 @section('title', 'Register')
 
 @section('content')
-    <div class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="flex items-center justify-center min-h-screen bg-[#C4DFE6]"> 
         <div class="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md">
-            <h1 class="text-2xl font-bold text-center">Register</h1>
-            <form class="space-y-4">
+            <h1 class="text-2xl font-bold text-center text-[#003B46]">Register</h1>
+                <form class="space-y-4">
                 <div>
                     <label class="block mb-2 text-sm font-medium text-gray-700" for="name">Name</label>
                     <input type="text" id="name" required class="block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
