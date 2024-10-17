@@ -19,9 +19,9 @@
                 <tbody>
                     @php
                         $people = [
-                            ['name' => 'John Doe', 'role' => 'Mahasiswa', 'email' => 'john@example.com'],
-                            ['name' => 'Jane Smith', 'role' => 'Karyawan', 'email' => 'jane@example.com'],
-                            ['name' => 'David Lee', 'role' => 'Mahasiswa', 'email' => 'david@example.com'],
+                            ['name' => 'Kiflin Nadil', 'role' => 'Mahasiswa', 'email' => 'kiflin@gmail.com'],
+                            ['name' => 'Rizal Prihadi', 'role' => 'Karyawan', 'email' => 'jane@gmail.com'],
+                            ['name' => 'Dwi Rifqi', 'role' => 'Mahasiswa', 'email' => 'david@gmail.com'],
                         ];
                     @endphp
 

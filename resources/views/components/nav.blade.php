@@ -1,4 +1,4 @@
-{{-- <nav class="bg-gray-800 p-4 shadow-md">
+<nav class="bg-gray-800 p-4 shadow-md">
     <div class="container mx-auto flex items-center justify-between">
         <div class="text-white text-2xl font-bold">
             <a href="{{ route('register') }}">MyApp</a>
@@ -10,7 +10,11 @@
             <li>
                 <a href="{{ route('register') }}" class="hover:text-blue-400 transition">Register</a>
             </li>
-            <li class="relative group">
+            <li>
+                <a href="{{ route('contact') }}" class="hover:text-blue-400 transition">Contact</a>
+            </li>
+
+            {{-- <li class="relative group">
                 <a href="#" class="hover:text-blue-400 transition">Contact</a>
                 <ul class="absolute hidden group-hover:block bg-gray-700 text-white rounded-lg shadow-md mt-2 w-48">
                     <li>
@@ -20,13 +24,13 @@
                         <a href="#" class="block px-4 py-2 hover:bg-gray-600 transition">Add Contact</a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
         </ul>
     </div>
-</nav> --}}
+</nav>
 
-<nav class="flex gap-4 p-4 w-full bg-slate-400">
+{{-- <nav class="flex gap-4 p-4 w-full bg-slate-400">
     <a href="/">Register</a>
     <a href="login">Login</a>
     <a href="contact">Contact</a>
-</nav>
+</nav> --}}
