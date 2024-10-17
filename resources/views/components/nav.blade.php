@@ -30,6 +30,6 @@
 
 <nav class="flex gap-4 p-4 w-full bg-slate-400">
     <a href="/">Register</a>
-    <a href="contact">Contact</a>
     <a href="login">Login</a>
+    <a href="contact">Contact</a>
 </nav>
