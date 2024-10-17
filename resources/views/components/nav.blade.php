@@ -1,4 +1,4 @@
-<nav class="bg-gray-800 p-4 shadow-md">
+{{-- <nav class="bg-gray-800 p-4 shadow-md">
     <div class="container mx-auto flex items-center justify-between">
         <div class="text-white text-2xl font-bold">
             <a href="{{ route('register') }}">MyApp</a>
@@ -24,6 +24,12 @@
                     </li>
                 </ul>
             </li> --}}
-        </ul>
-    </div>
+        {{-- </ul> --}}
+    {{-- </div> --}}
+{{-- </nav> --}} 
+
+<nav class="flex gap-4 p-4 w-full bg-slate-400">
+    <a href="/">Register</a>
+    <a href="contact">Contact</a>
+    <a href="login">Login</a>
 </nav>

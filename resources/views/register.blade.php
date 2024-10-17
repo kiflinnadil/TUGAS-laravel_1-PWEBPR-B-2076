@@ -21,7 +21,7 @@
                 </div>
                 <button type="submit" class="w-full p-2 mt-4 font-semibold text-white bg-green-600 rounded-md hover:bg-green-500">Daftar</button>
             </form>
-            <p class="text-sm text-center">Sudah punya akun? <a href="{{ route('login') }}" class="text-blue-600 hover:underline">Masuk sekarang</a></p>
+            {{-- <p class="text-sm text-center">Sudah punya akun? <a href="{{ route('login') }}" class="text-blue-600 hover:underline">Masuk sekarang</a></p> --}}
         </div>
     </div>
 @endsection
