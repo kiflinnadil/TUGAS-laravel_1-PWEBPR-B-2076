@@ -10,10 +10,7 @@
             <li>
                 <a href="{{ route('register') }}" class="hover:text-blue-400 transition">Register</a>
             </li>
-            <li>
-                <a href="{{ route('contact') }}" class="hover:text-blue-400 transition">Contact</a>
-            </li>
-            {{-- <li class="relative group">
+            <li class="relative group">
                 <a href="#" class="hover:text-blue-400 transition">Contact</a>
                 <ul class="absolute hidden group-hover:block bg-gray-700 text-white rounded-lg shadow-md mt-2 w-48">
                     <li>
@@ -23,10 +20,10 @@
                         <a href="#" class="block px-4 py-2 hover:bg-gray-600 transition">Add Contact</a>
                     </li>
                 </ul>
-            </li> --}}
-        {{-- </ul> --}}
-    {{-- </div> --}}
-{{-- </nav> --}} 
+            </li>
+        </ul>
+    </div>
+</nav> --}}
 
 <nav class="flex gap-4 p-4 w-full bg-slate-400">
     <a href="/">Register</a>
